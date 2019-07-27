@@ -10,13 +10,11 @@
   <view>
     <column-line/>
   </view>
+</view>
 
-
-  <scroll-view scroll-y="{{true}}" style="height: 300px">
-    <!-- 基础折线图 -->
+<!-- <scroll-view scroll-y="{{true}}" style="height: 300px">
     <view class="home_title">默认效果</view>
     <line/>
-    <!-- 对折线图进行优化 -->
     <view class="home_title">优化后的效果：自定义tooltip,监听tooltip改变，设置默认tooltip</view>
     <line2/>
 
@@ -25,6 +23,5 @@
       <column-line/>
     </view>
     
-  </scroll-view>
-</view>
+</scroll-view> -->
 
