@@ -1,0 +1,8 @@
+.home_wrapper {
+  padding: 0 12px;
+}
+.home_title {
+  font-size: 12px;
+  color: #999;
+  margin-top: 20px;
+}

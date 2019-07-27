@@ -1,0 +1,22 @@
+<view>
+  <view class="chart_top_info">
+    <text class="date_wrapper">{{currentTimerRangeStr}}</text>
+    <view class="right_wrapper">
+      <view class="catrgory"><view class="doct"></view>销售金额(元):<text style="color:#32353A;font-size: 14;font-weight:bold;margin-left: 4px">{{(currentAmt || 0).toFixed(2)}}</text></view>
+      <view class="catrgory"><view class="doct" style="background-color: #FFD700"></view>销售笔数(笔):<text style="color:#32353A;font-size: 14;font-weight:bold;margin-left: 4px">{{currentCv}}</text></view>
+    </view>
+  </view>
+
+  <view style="height: 220px">
+    <line
+    categories="{{categories}}"
+    series="{{series}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    legend="{{false}}"
+    tooltip="{{tooltip}}"
+    onTooltipChange="_onTooltipChange"
+  />
+  </view>
+  
+</view>

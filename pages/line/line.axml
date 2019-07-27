@@ -1,0 +1,10 @@
+<view style="height: 200px">
+  <line
+    categories="{{categories}}"
+    series="{{series}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    legend="{{legend}}"
+    tooltip="{{tooltip}}"
+  />
+</view>

@@ -1,0 +1,11 @@
+<view style="height: 320px">
+  <column-line
+      padding="{{['auto', 'auto', 90, 'auto']}}"
+      categories="{{categories}}"
+      series="{{series_column}}"
+      xAxis="{{xAxis}}"
+      yAxis="{{yAxis}}"
+      tooltip="{{tooltip}}"
+      onTooltipChange="_onTooltipChange"
+    />
+</view>

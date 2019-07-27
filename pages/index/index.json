@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "line": "../line/line",
+    "line2": "../line2/line2",
+    "column-line": "../column-line/column-line"
+  }
+}

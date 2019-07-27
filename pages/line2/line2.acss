@@ -1,0 +1,32 @@
+/* 表格头部 */
+.chart_top_info {
+  height: 60px;
+  background-color: #F9FAFC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 12px;
+}
+.chart_top_info .date_wrapper {
+  font-size: 16px;
+  font-family: DINAlternate-Bold;
+  font-weight: bold;
+  color: rgba(50,53,58,1);
+}
+.chart_top_info .right_wrapper {
+  font-size: 12px;
+  color: #65686F;
+}
+.chart_top_info .right_wrapper .catrgory {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+.chart_top_info .right_wrapper .doct {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #7B74FD;
+  margin-right: 4px;
+}
